@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+    <style>
+    	body{background-color: #3492eb;}
+    	h1{margin-top: 50px;
+        background-color: #0f7a51;
+   		color: lightblue;
+   		font-weight: bold;
+   		font-size: 30px;
+   		border: 15px #27dde3;
+   		border-style: outset;
+   		border-width: thick;
+   		text-align: center;
+   		text-style: cursive;}
+   		p{color: lightgreen;}
+    </style>
+
+	<div class="container">
+		<script>
+			document.write(If a = 35 and b = 45, compute for the following)
+		</script>
+	</div>
+    <p> Arithmetic </p>
+	<div class="container">
+		<script>
+		var a, b, result, lesser;
+	 	 a=35;
+	 	 b=45;
+	 	result= a+b;
+	</script>
+
+	<div id="Computation">
+		<h1> Computation for 35 plus 45 </h1>
+		<h1 id="answer1"> </h1>
+	 <button type="button" class="btn btn-warning" onclick="document.getElementById('answer1').innerHTML = 'Answer: ' + result;"> The answer </button>
+</div>
+
+<h1> Computation for 35 minus 45 </h1>
+<p id= "Answer2"></p>
+<button type="button"class="btn btn-warning"onclick="document.getElementById('Answer2').innerHTML = '<h2>' + 'Answer is:' + -10;">Show answer</button>
+
+  <p>Comparison</p>
+
+<h1> Is a lesser than b? </h1>
+<p id="Answer3"> </p>
+<button type="button"class="btn btn-warning"onclick="document.getElementById('Answer3').innerHTML = '<h2>' + 'Answer is:' + lesser;">Show answer</button>
+
+<h1> Is a greater than b? </h1>
+<p id="Answer4"> </p>
+<button type="button"class="btn btn-warning"onclick="document.getElementById('Answer4').innerHTML = '<h3>' + 'Answer is:' + greater;">Show answer</button>
+
+
+
+  <p>Logical</p>
+ 
+ <h1> Is this statement correct (a < b) && (a > b)? </h1>
+ <p id="Answer5"> </p>
+<button type="button"class="btn btn-warning"onclick="document.getElementById('Answer5').innerHTML = '<h4>' + 'Answer is: ' + false;">Show answer </button>
+
+ <h1> Is this statement correct (a <= b) || (a >= b)? </h1>
+ 	<p id="Answer6"> </p>
+ <button type="button"class="btn btn-warning"onclick="document.getElementById('Answer6').innerHTML = '<h5>' + 'Answer is: ' + false;">Show answer </button>	
+
+    
+	
+   
+
+
+
+</body>
+</html>
